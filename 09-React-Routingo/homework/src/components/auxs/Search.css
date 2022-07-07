@@ -1,0 +1,41 @@
+body {
+    background-color: white;
+    color: black;
+}
+
+.dark-mode {
+    background-color: rgb(65, 65, 65);
+}
+
+.btn-dark {
+    cursor: pointer;
+    border: 1px solid black;
+    margin: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.btncontainer {
+    width: 100%;
+}
+
+#inputcity {
+    border: none;
+    margin: 0 10px;
+    border-radius: 5px;
+    padding: 4px 10px;
+}
+
+#inputcity:focus {
+    outline: none;
+    box-shadow: 0px 0px 40px 10px rgba(0, 0, 0, 0.4);
+}
+
+.submit {
+    border: 1px solid black;
+    padding: 4px 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: aliceblue;
+}
